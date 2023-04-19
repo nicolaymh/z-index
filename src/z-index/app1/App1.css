@@ -1,17 +1,18 @@
 .contenedor-general > * {
   width: 10rem;
   height: 10rem;
-  background-color: aquamarine;
   margin-top: 1rem;
   border: 1px solid green;
 }
 
 /* Si no coloco position, por defecto el position es static */
 .contenedor1 {
-  position: relative;
+  background-color: black;
+  position: absolute;
 }
 .contenedor2 {
-  position: relative;
+  background-color: aquamarine;
+  position: absolute;
 }
 
 .item1 {
@@ -20,4 +21,5 @@
 }
 .item2 {
   position: absolute;
+  z-index: 1;
 }
