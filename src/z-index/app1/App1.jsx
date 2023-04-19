@@ -1,8 +1,12 @@
 //? 1 Como se colocan las etiqueta por defecto.
 
-// La clave del z-index es como se colocan las etiquetas en html.
+//* La clave del z-index es como se colocan las etiquetas en html.
 
-// Si ambos tienen el mismo z-index, entonces se va superponer encima la etiqueta de mas abajo.
+//! Si ambos tienen el mismo z-index, entonces se va superponer encima la etiqueta de mas abajo.
+
+// El z-index lo que hace es superponer una etiqueta por encima de otra.
+
+//? El z-index solo se puede usar cuando se tiene aplicado cualquier position excepto static. (Positions de flujo impuesto)
 
 import "./App1.css";
 
