@@ -1,0 +1,17 @@
+.contenedor-general > * {
+  width: 10rem;
+  height: 10rem;
+  background-color: aquamarine;
+  margin-top: 1rem;
+  border: 1px solid green;
+}
+
+/* Si no coloco position, por defecto el position es static */
+.contenedor1 {
+  position: absolute;
+}
+
+.contenedor2 {
+  position: absolute;
+  opacity: 0.2;
+}
