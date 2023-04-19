@@ -8,6 +8,8 @@
 
 //? El z-index solo se puede usar cuando se tiene aplicado cualquier position excepto static. (Positions de flujo impuesto)
 
+//* Vallor por defecto de z-index es cero => z-index: 0
+
 import "./App1.css";
 
 const App1 = () => {

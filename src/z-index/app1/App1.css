@@ -9,9 +9,10 @@
 /* Si no coloco position, por defecto el position es static */
 .contenedor1 {
   position: absolute;
+  z-index: 1;
 }
 
 .contenedor2 {
   position: absolute;
-  opacity: 0.2;
+  z-index: 1;
 }
