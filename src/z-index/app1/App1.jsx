@@ -15,7 +15,10 @@ import "./App1.css";
 const App1 = () => {
   return (
     <div className="contenedor-general">
-      <div className="contenedor1">😀</div>
+      <div className="contenedor1">
+        <div className="item1">😎</div>
+        <div className="item2">👍</div>
+      </div>
       <div className="contenedor2">😡</div>
     </div>
   );

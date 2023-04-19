@@ -8,11 +8,16 @@
 
 /* Si no coloco position, por defecto el position es static */
 .contenedor1 {
+  position: relative;
+}
+.contenedor2 {
+  position: relative;
+}
+
+.item1 {
   position: absolute;
   z-index: 1;
 }
-
-.contenedor2 {
+.item2 {
   position: absolute;
-  z-index: 1;
 }
